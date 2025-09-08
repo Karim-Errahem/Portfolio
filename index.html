@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Karim Errahem</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="theme-switch">
+    <i class="fas fa-moon"></i>
+  </div>
+
+  <header>
+    <div class="container">
+      <div class="logo">KE</div>
+      <nav>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#Experience">Experience</a></li>
+          <li><a href="#languages">Languages</a></li>
+          <li><a href="#Education">Education</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="glitch" data-text="Karim Errahem">Karim Errahem</h1>
+          <h2>Business Computing bachelor</h2>
+          <p>Specialized in Full Stack Development</p>
+          <div class="cta-buttons">
+            <a href="#projects" class="btn primary">View My Projects</a>
+            <a href="#contact" class="btn secondary">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="shape"></div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-down">
+      <span>Scroll</span>
+      <i class="fas fa-chevron-down"></i>
+    </div>
+</section>
+
+<section id="skills" class="skills">
+    <div class="container">
+      <div class="section-header">
+        <h2>Technical Skills</h2>
+        <p>Technologies and methodologies I master</p>
+      </div>
+      <div class="skills-container">
+        <div class="skill-category">
+          <h3>Languages</h3>
+          <div class="skills-grid">
+            <div class="skill-item" data-aos="fade-up">
+              <i class="fab fa-java"></i>
+              <span>Java</span>
+            </div>
+            <div class="skill-item" data-aos="fade-up" data-aos-delay="100">
+              <i class="fab fa-js"></i>
+              <span>JavaScript</span>
+            </div>
+            <div class="skill-item" data-aos="fade-up" data-aos-delay="200">
+              <i class="fab fa-python"></i>
+              <span>Python</span>
+            </div>
+            <div class="skill-item" data-aos="fade-up" data-aos-delay="300">
+              <i class="fab fa-php"></i>
+              <span>PHP</span>
+            </div>
+            <div class="skill-item" data-aos="fade-up" data-aos-delay="400">
+              <i class="fas fa-code"></i>
+              <span>C#</span>
+            </div>
+            <div class="skill-item" data-aos="fade-up" data-aos-delay="500">
+              <i class="fas fa-code"></i>
+              <span>C</span>
+            </div>
+            <div class="skill-item" data-aos="fade-up" data-aos-delay="600">
+              <i class="fab fa-js"></i>
+              <span>TypeScript</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="skill-category">
+          <h3>Frameworks & Libraries</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <i class="fab fa-react"></i>
+              <span>React</span>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-node-js"></i>
+              <span>Node.js</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-leaf"></i>
+              <span>Spring Boot</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-code-branch"></i>
+              <span>Next.js</span>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-angular"></i>
+              <span>Angular</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>Databases</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <i class="fas fa-database"></i>
+              <span>MongoDB</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-database"></i>
+              <span>MySQL</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-database"></i>
+              <span>Prisma</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-fire"></i>
+              <span>Firebase</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="skill-category">
+          <h3>Methodologies</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <i class="fas fa-tasks"></i>
+              <span>Agile</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-users"></i>
+              <span>Scrum</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+<section id="projects" class="projects">
+  <div class="container">
+    <div class="section-header">
+      <h2>My Projects</h2>
+      <p>Discover my recent work</p>
+    </div>
+
+    <!-- Filter Buttons -->
+    <div class="projects-filter">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="web">Web</button>
+      <button class="filter-btn" data-filter="mobile">Mobile</button>
+      <button class="filter-btn" data-filter="desktop">Desktop</button>
+      <button class="filter-btn" data-filter="ai">AI</button>
+    </div>
+
+    <!-- Projects Grid -->
+    <div class="projects-grid">
+
+      <!-- Project Card -->
+      <div class="project-card" data-category="web">
+        <a href="https://github.com/Karim-Errahem/Online_store">
+          <div class="project-info">
+            <h3>Toy E-commerce Website</h3>
+            <p>Online sales platform with payment system and stock management</p>
+            <div class="project-tags">
+              <span>React</span>
+              <span>Node.js</span>
+              <span>MongoDB</span>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="project-card" data-category="mobile">
+        <a href="https://github.com/Karim-Errahem/Task-Management-App">
+          <div class="project-info">
+            <h3>Android Task Management App</h3>
+            <p>Mobile application to manage daily tasks</p>
+            <div class="project-tags">
+              <span>Java</span>
+              <span>Android</span>
+              <span>Firebase</span>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="project-card" data-category="mobile ai">
+        <a href="https://github.com/Karim-Errahem/Android-ChatBot_OpenIA-Api">
+          <div class="project-info">
+            <h3>Android Intelligent Chatbot App</h3>
+            <p>AI-based virtual assistant to answer user questions</p>
+            <div class="project-tags">
+              <span>Java</span>
+              <span>Android</span>
+              <span>NLP</span>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="project-card" data-category="ai">
+        <a href="https://github.com/Karim-Errahem/Object-Detection-in-Images-Project">
+          <div class="project-info">
+            <h3>Object Detection in Images Project</h3>
+            <p>Object detection system in images using deep learning</p>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>TensorFlow</span>
+              <span>Computer Vision</span>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="project-card" data-category="ai">
+        <a href="https://github.com/Karim-Errahem/Fire-detection">
+          <div class="project-info">
+            <h3>AI Fire Detection</h3>
+            <p>Real-time fire detection system powered by AI</p>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>OpenCV</span>
+              <span>Deep Learning</span>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="project-card" data-category="mobile">
+        <a href="https://github.com/Karim-Errahem/quiz_app">
+          <div class="project-info">
+            <h3>Android Online Quiz Game</h3>
+            <p>Online multiplayer quiz game for Android</p>
+            <div class="project-tags">
+              <span>Java</span>
+              <span>Android</span>
+              <span>Firebase</span>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="project-card" data-category="desktop">
+        <a href="https://github.com/Karim-Errahem/desktop-Java-appl-for-managing-a-naturist-clinic">
+          <div class="project-info">
+            <h3>Desktop App for Managing a Naturopathic Clinic</h3>
+            <p>Desktop application for managing a naturopathic clinic</p>
+            <div class="project-tags">
+              <span>java</span>
+              <span>Swing</span>
+              <span>SQL</span>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="project-card" data-category="web">
+        <a href="https://github.com/">
+          <div class="project-info">
+            <h3>CreativeMind Platform</h3>
+            <p>Collaborative platform for creatives and artists</p>
+            <div class="project-tags">
+              <span>Next.js</span>
+              <span>React</span>
+              <span>Prisma</span>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="project-card" data-category="desktop ai">
+        <a href="https://github.com/Karim-Errahem/ChatBot_OpenIA-API">
+          <div class="project-info">
+            <h3>Desktop Intelligent Chatbot</h3>
+            <p>Virtual assistant for desktop with learning capabilities</p>
+            <div class="project-tags">
+              <span>C#</span>
+              <span>NLP</span>
+              <span>OpenAI</span>
+            </div>
+          </div>
+        </a>
+      </div>
+      
+      <div class="project-card" data-category="desktop ai">
+        <a href="https://github.com/Karim-Errahem/le-merle">
+          <div class="project-info">
+            <h3>Le Merle Medical Association Website</h3>
+            <p>web application for a medical association, supporting multilingual features (French, English,
+Arabic)</p>
+            <div class="project-tags">
+             <span>Next.js</span>
+              <span>React</span>
+              <span>TypeScript</span>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section id="Experience" class="experience">
+  <div class="container">
+    <div class="section-header">
+      <h2>Professional Experience</h2>
+      <p>My professional background</p>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">July 2024</div>
+        <div class="timeline-content">
+          <h3>BNA Gafsa</h3>
+          <h4>Systems Analysis</h4>
+          <p>Analyzed banking processes and proposed improvements.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="languages" class="languages">
+  <div class="container">
+    <div class="section-header">
+      <h2>Languages</h2>
+      <p>My language skills</p>
+    </div>
+    <div class="languages-container">
+      <div class="language-item">
+        <div class="language-info">
+          <h3>Arabic</h3>
+          <span>Native (C2)</span>
+        </div>
+        <div class="language-bar">
+          <div class="language-progress" style="width: 100%"></div>
+        </div>
+      </div>
+
+      <div class="language-item">
+        <div class="language-info">
+          <h3>Italian</h3>
+          <span>Advanced (B2)</span>
+        </div>
+        <div class="language-bar">
+          <div class="language-progress" style="width: 80%"></div>
+        </div>
+      </div>
+
+      <div class="language-item">
+        <div class="language-info">
+          <h3>English</h3>
+          <span>Advanced (B2)</span>
+        </div>
+        <div class="language-bar">
+          <div class="language-progress" style="width: 80%"></div>
+        </div>
+      </div>
+
+      <div class="language-item">
+        <div class="language-info">
+          <h3>French</h3>
+          <span>Intermediate (B2)</span>
+        </div>
+        <div class="language-bar">
+          <div class="language-progress" style="width: 80%"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="Education" class="experience">
+  <div class="container">
+    <div class="section-header">
+      <h2>Education</h2>
+      <p>My academic background</p>
+    </div>
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2022 - 2025</div>
+        <div class="timeline-content">
+          <h3>ISAEG</h3>
+          <h4>Bachelor’s in Business Computing</h4>
+          <p>Specialized in software development, databases, and system design over three years.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2025</div>
+        <div class="timeline-content">
+          <h3>ISSAT Gafsa</h3>
+          <h4>Cybersecurity Student</h4>
+          <p></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header">
+        <h2>Why Me?</h2>
+        <p>What makes me different</p>
+      </div>
+      <div class="about-content">
+        <div class="about-cards">
+          <div class="about-card">
+            <div class="about-icon">
+              <i class="fas fa-lightbulb"></i>
+            </div>
+            <h3>Curious</h3>
+            <p>Always seeking new knowledge and technologies</p>
+          </div>
+          
+          <div class="about-card">
+            <div class="about-icon">
+              <i class="fas fa-check-circle"></i>
+            </div>
+            <h3>Rigorous</h3>
+            <p>Attention to detail and quality of work</p>
+          </div>
+          
+          <div class="about-card">
+            <div class="about-icon">
+              <i class="fas fa-rocket"></i>
+            </div>
+            <h3>Motivated</h3>
+            <p>Passionate about challenges and innovation</p>
+          </div>
+          
+          <div class="about-card">
+            <div class="about-icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h3>Analytical</h3>
+            <p>Strong analytical and problem-solving skills</p>
+          </div>
+          
+          <div class="about-card">
+            <div class="about-icon">
+              <i class="fas fa-sync-alt"></i>
+            </div>
+            <h3>Adaptable</h3>
+            <p>Ability to quickly adapt to new situations</p>
+          </div>
+          
+          <div class="about-card">
+            <div class="about-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <h3>Collaborative</h3>
+            <p>Excellent teamwork and communication</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2>Contact</h2>
+        <p>Let’s talk about your project</p>
+      </div>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h3>Email</h3>
+              <p>karim.arrahem@isaeg.u-gafsa.tn</p>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h3>Phone</h3>
+              <p>+216 29 303 964</p>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h3>Location</h3>
+              <p>Gafsa, Tunisia</p>
+            </div>
+          </div>
+          
+          <div class="contact-social">
+            <a href="https://github.com/Karim-Errahem" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/errahem-karim-0748432b4" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/kimo.karim.587606" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/karimerrahem/" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+<div class="contact-form">
+  <form id="contactForm">
+    <div class="form-group">
+      <input type="text" id="name" placeholder="Your name" required>
+    </div>
+    <div class="form-group">
+      <input type="email" id="email" placeholder="Your email" required>
+    </div>
+    <div class="form-group">
+      <input type="text" id="subject" placeholder="Subject" required>
+    </div>
+    <div class="form-group">
+      <textarea id="message" placeholder="Your message" required></textarea>
+    </div>
+    <button type="submit" class="btn primary">Send</button>
+  </form>
+</div>
+
+<!-- ⚡ Nouveau SDK v4 -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+  // ⚡ init avec la clé publique
+  emailjs.init({
+    publicKey: "G_0nsVQ2qXk57dSZ7",
+  });
+
+  const contactForm = document.getElementById("contactForm");
+
+  contactForm.addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const name = document.getElementById("name").value.trim();
+    const email = document.getElementById("email").value.trim();
+    const subject = document.getElementById("subject").value.trim();
+    const message = document.getElementById("message").value.trim();
+
+    if (!name || !email || !subject || !message) {
+      showAlert("Veuillez remplir tous les champs.", "error");
+      return;
+    }
+
+    // ⚡ Envoi avec EmailJS v4
+    emailjs.send("service_2g80d9w", "template_9rnkak1", {
+      name: name,
+      email: email,
+      subject: subject,
+      message: message,
+    })
+    .then((response) => {
+      console.log("SUCCESS!", response);
+      showAlert("✅ Message envoyé avec succès !", "success");
+      contactForm.reset();
+    })
+    .catch((error) => {
+      console.error("FAILED...", error);
+      showAlert("❌ Une erreur est survenue, réessaie.", "error");
+    });
+  });
+
+  function showAlert(message, type) {
+    let alertBox = document.getElementById("alertBox");
+    if (!alertBox) {
+      alertBox = document.createElement("div");
+      alertBox.id = "alertBox";
+      document.body.appendChild(alertBox);
+    }
+    alertBox.style.position = "fixed";
+    alertBox.style.top = "20px";
+    alertBox.style.right = "20px";
+    alertBox.style.padding = "12px 16px";
+    alertBox.style.borderRadius = "8px";
+    alertBox.style.fontFamily = "Arial, sans-serif";
+    alertBox.style.boxShadow = "0 6px 18px rgba(0,0,0,0.15)";
+    alertBox.style.color = "#fff";
+    alertBox.style.zIndex = "1000";
+    alertBox.style.transition = "all 0.4s ease";
+    alertBox.style.opacity = "1";
+    alertBox.style.transform = "translateX(0)";
+    alertBox.style.backgroundColor = type === "success" ? "#4BB543" : "#FF5252";
+    alertBox.innerText = message;
+
+    setTimeout(() => {
+      alertBox.style.opacity = "0";
+      alertBox.style.transform = "translateX(100%)";
+    }, 4200);
+
+    setTimeout(() => alertBox.remove(), 4700);
+  }
+</script>
+
+
+
+</section>
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h3>Karim Errahem</h3>
+          <p>Full Stack Developer</p>
+        </div>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#Experience">Experience</a>
+          <a href="#languages">Languages</a>
+          <a href="#Education">Education</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Karim Errahem – All rights reserved</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <div class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
